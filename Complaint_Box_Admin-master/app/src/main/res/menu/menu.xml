@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Pending Requests"
+        android:onClick="pending_requests"/>
+    <item android:title="Approved Complains"
+
+        android:onClick="move_to_approved_complaints"/>
+    <item android:title="Resolved Complains"
+        android:onClick="move_to_resolved_complaints"/>
+    <item android:title="Logout"
+        android:onClick="logout"/>
+</menu>
